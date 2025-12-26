@@ -1,0 +1,136 @@
+.storage-app {
+  min-height: 100vh;
+}
+
+.storage-main {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 3rem;
+}
+
+.storage-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+}
+
+.storage-card-header {
+  padding: 1.25rem 1.25rem 0.75rem;
+}
+
+.storage-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.storage-subtitle {
+  margin: 0.5rem 0 0;
+  color: #4b5563;
+  line-height: 1.4;
+}
+
+.storage-form-row {
+  padding: 0 1.25rem 1rem;
+}
+
+.storage-label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.storage-input {
+  width: 100%;
+  padding: 0.7rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d1d5db;
+  outline: none;
+  font-size: 0.95rem;
+}
+
+.storage-input.valid {
+  border-color: #10b981;
+}
+
+.storage-input.invalid {
+  border-color: #ef4444;
+}
+
+.storage-hint {
+  margin-top: 0.4rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.storage-hint.error {
+  color: #b91c1c;
+}
+
+.storage-tabs {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0 1.25rem 1rem;
+}
+
+.storage-tab {
+  appearance: none;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  color: #374151;
+  padding: 0.55rem 0.85rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.storage-tab.active {
+  background: #111827;
+  border-color: #111827;
+  color: #ffffff;
+}
+
+.storage-tab-body {
+  padding: 0 1.25rem 1.25rem;
+}
+
+.mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.wrap {
+  word-break: break-word;
+}
+
+.notice {
+  padding: 0.75rem 0.9rem;
+  border-radius: 0.5rem;
+  background: #f3f4f6;
+  color: #374151;
+  border: 1px solid #e5e7eb;
+}
+
+.notice.error {
+  background: #fef2f2;
+  border-color: #fecaca;
+  color: #991b1b;
+}
+
+@media (min-width: 640px) {
+  .storage-main {
+    padding: 2rem 1.5rem 3rem;
+  }
+
+  .storage-card-header,
+  .storage-form-row,
+  .storage-tabs,
+  .storage-tab-body {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+}
+
